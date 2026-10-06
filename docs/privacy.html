@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Trash Vault</title>
+<meta name="description" content="How Trash Vault handles your data. Your files never leave your phone.">
+<meta name="robots" content="index, follow">
+<style>
+  :root {
+    --bg: #09090F;
+    --surface: #14141D;
+    --surface-2: #1C1C28;
+    --border: #26263A;
+    --text: #ECECF4;
+    --muted: #A1A1B5;
+    --brand-a: #8B5CF6;
+    --brand-b: #C026D3;
+    --ok: #34D399;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  .mark {
+    width: 44px; height: 44px; border-radius: 12px; flex: none;
+    background: linear-gradient(135deg, var(--brand-a), var(--brand-b));
+    display: grid; place-items: center;
+  }
+  .mark svg { width: 24px; height: 24px; }
+  .app { font-weight: 700; font-size: 18px; letter-spacing: .2px; }
+  h1 {
+    font-size: clamp(28px, 6vw, 38px); line-height: 1.15; margin: 20px 0 6px;
+    background: linear-gradient(135deg, #C4B5FD, #F0ABFC);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .meta { color: var(--muted); font-size: 14px; margin: 0 0 28px; }
+  h2 {
+    font-size: 20px; margin: 40px 0 10px; padding-top: 4px;
+    scroll-margin-top: 16px;
+  }
+  h3 { font-size: 16px; margin: 22px 0 6px; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  a { color: #C4B5FD; text-underline-offset: 2px; }
+  a:hover { color: #F0ABFC; }
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 16px; padding: 18px 20px; margin: 16px 0;
+  }
+  .promise {
+    border-color: transparent;
+    background:
+      linear-gradient(var(--surface), var(--surface)) padding-box,
+      linear-gradient(135deg, var(--brand-a), var(--brand-b)) border-box;
+    border: 1.5px solid transparent;
+  }
+  .promise strong { color: var(--ok); }
+  .toc { columns: 2; column-gap: 24px; margin: 0; padding-left: 18px; font-size: 15px; }
+  @media (max-width: 560px) { .toc { columns: 1; } }
+  .table-scroll { overflow-x: auto; margin: 12px 0; border: 1px solid var(--border); border-radius: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14.5px; min-width: 560px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+  th { background: var(--surface-2); font-weight: 600; }
+  tr:last-child td { border-bottom: 0; }
+  code { background: var(--surface-2); padding: 1px 6px; border-radius: 6px; font-size: 13.5px; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="mark" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 6h18"/><path d="M8 6V4h8v2"/><path d="M5 6l1 14h12l1-14"/><path d="M12 17v-6"/><path d="M9.5 13.5 12 11l2.5 2.5"/>
+    </svg>
+  </div>
+  <div class="app">Trash Vault</div>
+</header>
+
+<h1>Privacy Policy</h1>
+<p class="meta">Effective date: October 5, 2026 · Last updated: October 5, 2026</p>
+
+<div class="card promise">
+  <p style="margin:0"><strong>Your files never leave your phone.</strong>
+  Trash Vault scans, recovers, cleans and encrypts files entirely on your device.
+  We do not upload, copy, view or sell your photos, videos, audio, documents or messages.
+  The only data that leaves the device is limited technical data used for ads,
+  crash reports, app statistics and subscriptions, explained below.</p>
+</div>
+
+<p>This Privacy Policy explains how the Trash Vault Android application
+(package <code>com.hamiddev.trash_vault</code>, the “App”) handles information.
+The App is published on Google Play by Hamid, an independent developer
+(“we”, “us”). If you have any question, write to
+<a href="mailto:hamid.dev2030@gmail.com">hamid.dev2030@gmail.com</a>.</p>
+
+<div class="card">
+  <ol class="toc">
+    <li><a href="#on-device">What stays on your device</a></li>
+    <li><a href="#permissions">Permissions and why</a></li>
+    <li><a href="#shared">Data that leaves your device</a></li>
+    <li><a href="#ads">Advertising and consent</a></li>
+    <li><a href="#purchases">Subscriptions</a></li>
+    <li><a href="#not-collected">What we never collect</a></li>
+    <li><a href="#legal">Legal bases (EEA / UK)</a></li>
+    <li><a href="#retention">Retention and deletion</a></li>
+    <li><a href="#rights">Your rights and choices</a></li>
+    <li><a href="#security">Security</a></li>
+    <li><a href="#transfers">International transfers</a></li>
+    <li><a href="#children">Children</a></li>
+    <li><a href="#changes">Changes to this policy</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</div>
+
+<h2 id="on-device">1. What stays on your device</h2>
+<p>All of the App’s core features run locally on your phone, without our servers
+(we do not operate any servers for the App):</p>
+<ul>
+  <li><strong>Scanning and recovery.</strong> The App reads your device storage, the
+  Android system trash and manufacturer recycle bins to find deleted or hidden files and
+  show them to you. File contents, names and paths are processed only on the device.</li>
+  <li><strong>Smart trash and Deletion watchdog.</strong> To tell you when files were deleted
+  and how long they can still be restored, the App keeps a local index of media identifiers,
+  sizes and dates in a database on your phone.</li>
+  <li><strong>Encrypted vault.</strong> Files you move to the vault are encrypted on the
+  device with AES-256-GCM. The encryption key is kept in Android’s secure storage
+  (Keystore) and is never sent to us.</li>
+  <li><strong>Biometric unlock.</strong> Fingerprint or face unlock is handled entirely by
+  Android. The App only receives a “success” or “failure” answer and never has access to
+  your biometric data.</li>
+  <li><strong>Cleaning tools.</strong> Junk files, large files and duplicate detection
+  (which compares file fingerprints/hashes) all run locally.</li>
+  <li><strong>Settings and notifications.</strong> Your preferences (language, notifications,
+  watchdog and so on) are stored on the device. Reminder notifications are generated locally.</li>
+</ul>
+<p>Android’s automatic cloud backup is disabled for the App, so this local data is not
+copied to your Google account backup.</p>
+
+<h2 id="permissions">2. Permissions and why we ask for them</h2>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Permission</th><th>Why the App needs it</th></tr></thead>
+  <tbody>
+    <tr><td>Photos, videos and music/audio<br><span class="muted">(READ_MEDIA_*, or storage read on older Android)</span></td>
+        <td>To find deleted and trashed media and to show previews of recoverable files.</td></tr>
+    <tr><td>All files access<br><span class="muted">(MANAGE_EXTERNAL_STORAGE, optional)</span></td>
+        <td>To search the whole storage — including hidden folders, app leftovers and recycle bins
+        outside the media library — for recoverable files, and to clean junk. The App keeps working
+        without it, with more limited coverage. Everything stays on the device.</td></tr>
+    <tr><td>Media management<br><span class="muted">(MANAGE_MEDIA, optional)</span></td>
+        <td>To restore or delete files without Android asking for confirmation on every file.</td></tr>
+    <tr><td>Notifications</td>
+        <td>To remind you before trashed files are deleted forever and to alert you when the
+        Deletion watchdog detects deleted files.</td></tr>
+    <tr><td>Biometrics</td>
+        <td>To lock the vault with your fingerprint or face.</td></tr>
+    <tr><td>Run at startup, wake lock</td>
+        <td>To keep the daily maintenance task and reminders working after a restart.</td></tr>
+    <tr><td>Internet, network state</td>
+        <td>For ads, crash reports, app statistics, remote ad settings and subscriptions only.
+        Your files are never uploaded.</td></tr>
+    <tr><td>Advertising ID</td>
+        <td>Used by Google AdMob and Firebase as described in sections 3 and 4.</td></tr>
+  </tbody>
+</table>
+</div>
+<p>You can grant or revoke any permission at any time in Android Settings.</p>
+
+<h2 id="shared">3. Data that leaves your device</h2>
+<p>The App uses the following third-party services. They receive limited technical
+data — never the contents of your files.</p>
+
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Service (provider)</th><th>Purpose</th><th>Data involved</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><strong>Google AdMob</strong> and User Messaging Platform (Google)</td>
+      <td>Showing ads to free users; asking for and storing ad consent where required</td>
+      <td>Advertising ID, IP address (used to estimate approximate location), device and app
+      information, ad interactions, your consent choice</td>
+    </tr>
+    <tr>
+      <td><strong>Firebase Analytics</strong> (Google)</td>
+      <td>Understanding how the App is used so we can improve it</td>
+      <td>App instance ID, advertising ID, device model, OS version, country, language, and
+      in-app events such as “scan started”, “scan finished” (with category and counts),
+      “file restored”, “paywall shown”, “permission granted”. No file names or contents.</td>
+    </tr>
+    <tr>
+      <td><strong>Firebase Crashlytics</strong> (Google)</td>
+      <td>Finding and fixing crashes</td>
+      <td>Crash stack traces, device model, OS version, app version, a random installation ID,
+      and device state at the time of the crash (e.g. free memory/disk)</td>
+    </tr>
+    <tr>
+      <td><strong>Firebase Remote Config</strong> (Google)</td>
+      <td>Turning ad placements on or off and updating settings without a new app version</td>
+      <td>Firebase installation ID, app version, device language and country</td>
+    </tr>
+    <tr>
+      <td><strong>Google Play Billing</strong> (Google) and <strong>RevenueCat</strong> (RevenueCat, Inc.)</td>
+      <td>Processing and verifying subscriptions</td>
+      <td>An anonymous app user ID, purchase tokens, product, price, currency and subscription
+      status. Payment details are handled by Google Play only.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>These providers process data under their own terms and privacy policies:
+<a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>,
+<a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from apps that use its services</a>,
+<a href="https://firebase.google.com/support/privacy" rel="noopener">Privacy and security in Firebase</a>,
+<a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat Privacy Policy</a>.</p>
+<p>We do not sell your personal data, and we do not share it with anyone other than the
+service providers listed above.</p>
+
+<h2 id="ads">4. Advertising and consent</h2>
+<p>The free version of the App shows ads provided by Google AdMob. Subscribers do not see ads.</p>
+<ul>
+  <li><strong>In the EEA, the UK and Switzerland</strong>, the App uses Google’s certified
+  consent platform (User Messaging Platform) to ask for your consent before personalised ads
+  are shown. If you do not consent, you may still see non-personalised or limited ads.</li>
+  <li><strong>Change your choice at any time</strong> in the App: <em>Settings → Ad privacy
+  choices</em> (shown where this choice applies).</li>
+  <li><strong>Advertising ID.</strong> You can reset or delete your advertising ID in Android
+  Settings → Privacy → Ads (or Google → Ads, depending on your device).</li>
+</ul>
+
+<h2 id="purchases">5. Subscriptions</h2>
+<p>Trash Vault Pro is sold through Google Play. We never see your name, email or card
+number. RevenueCat receives an anonymous identifier and your purchase receipt so the App can
+confirm that your subscription is active. You can manage or cancel your subscription at any
+time in Google Play → Payments &amp; subscriptions.</p>
+
+<h2 id="not-collected">6. What we never collect</h2>
+<ul>
+  <li>The contents, names or paths of your photos, videos, audio, documents or messages</li>
+  <li>Files in your vault, or the vault’s encryption key</li>
+  <li>Biometric data</li>
+  <li>Your name, email address, phone number or contacts</li>
+  <li>Precise (GPS) location</li>
+  <li>An account — the App has no sign-in</li>
+</ul>
+
+<h2 id="legal">7. Legal bases (EEA / UK users)</h2>
+<p>Where the GDPR or UK GDPR applies, we rely on:</p>
+<ul>
+  <li><strong>Consent</strong> — for personalised advertising and the related use of your
+  advertising ID. You can withdraw it at any time in Settings → Ad privacy choices.</li>
+  <li><strong>Legitimate interests</strong> — for crash reporting, basic app statistics,
+  remote configuration and the delivery of non-personalised ads, so we can keep the App
+  stable, improve it and keep a free version available.</li>
+  <li><strong>Performance of a contract</strong> — for processing and verifying your subscription.</li>
+</ul>
+
+<h2 id="retention">8. Retention and deletion</h2>
+<ul>
+  <li><strong>On-device data</strong> (database, index, vault, settings) stays on your phone
+  until you delete it in the App or uninstall the App. Uninstalling removes it. Please move
+  any files out of the vault before uninstalling, because vault files cannot be decrypted
+  without the key that is removed with the App.</li>
+  <li><strong>Crashlytics</strong> keeps crash reports for up to 90 days.</li>
+  <li><strong>Firebase Analytics</strong> data is kept according to the retention period set in
+  our Google Analytics settings (no longer than 14 months for user-level data).</li>
+  <li><strong>AdMob, Google Play and RevenueCat</strong> keep data according to their own
+  policies and legal obligations (for example, purchase records required for tax purposes).</li>
+</ul>
+
+<h2 id="rights">9. Your rights and choices</h2>
+<p>Depending on where you live, you may have the right to access, correct, delete or receive a
+copy of your personal data, to restrict or object to its processing, and to withdraw consent.
+Because we do not hold an account or your identity, most of these requests are handled
+directly in the App, in Android Settings or with Google. For anything else, email us at
+<a href="mailto:hamid.dev2030@gmail.com">hamid.dev2030@gmail.com</a>; we will reply
+within 30 days.</p>
+<p>If you are in the EEA, you also have the right to lodge a complaint with your local data
+protection authority (in Italy: the <a href="https://www.garanteprivacy.it" rel="noopener">Garante per la protezione dei dati personali</a>).</p>
+
+<h2 id="security">10. Security</h2>
+<p>Vault files are encrypted with AES-256-GCM and the key is protected by the Android
+Keystore. Data sent to the third-party services above travels over encrypted (HTTPS)
+connections. No method of storage or transmission is completely secure, but we design the App
+to keep your files on your device in the first place.</p>
+
+<h2 id="transfers">11. International transfers</h2>
+<p>Google and RevenueCat may process data in the United States and other countries. These
+providers rely on safeguards recognised by the European Commission, such as the EU–US Data
+Privacy Framework and Standard Contractual Clauses.</p>
+
+<h2 id="children">12. Children</h2>
+<p>The App is not directed to children under 13 (or the minimum age required in your country),
+and we do not knowingly collect personal data from children. If you believe a child has
+provided data through the App, contact us and we will help delete it.</p>
+
+<h2 id="changes">13. Changes to this policy</h2>
+<p>We may update this policy when the App changes or when the law requires it. The new version
+will be published on this page with an updated date. Important changes will also be
+announced in the App or in the Google Play release notes.</p>
+
+<h2 id="contact">14. Contact</h2>
+<div class="card">
+  <p style="margin:0">Hamid — developer of Trash Vault<br>
+  Email: <a href="mailto:hamid.dev2030@gmail.com">hamid.dev2030@gmail.com</a></p>
+</div>
+
+<footer>© 2026 Trash Vault. This policy applies to the Trash Vault app on Google Play.</footer>
+
+</div>
+</body>
+</html>
